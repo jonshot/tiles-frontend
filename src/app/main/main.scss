@@ -1,0 +1,15 @@
+.cards {
+  width: 100%;
+  display: flex;
+}
+
+.card {
+  border: 1px solid #ccc;
+  margin: 5px;
+  &.col-1 {
+    width: 25%;
+  }
+  &.col-3 {
+    width: 75%;
+  }
+}

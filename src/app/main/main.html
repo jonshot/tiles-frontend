@@ -1,0 +1,9 @@
+<div class="container">
+  <h1>Card Demo</h1>
+  <div class="cards">
+    <div class="card" ng-repeat="card in main.cards" ng-class="main.getClass(card)">
+      <h2>{{card.title}}</h2>
+      <div ng-bind-html="main.getImg(card)"></div>
+    </div>
+  </div>
+</div>
